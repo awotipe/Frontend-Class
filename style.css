@@ -627,7 +627,8 @@ footer {
   }
 
   .input input {
-    padding: .8rem;
+    padding: 0.9rem;
+    border: none;
     width: 345px;
   }
   
@@ -762,7 +763,8 @@ footer {
 
 @media screen and (max-width: 499px){
   .input input {
-    padding: 0.8rem;
+    padding: 0.9rem;
+    border: none;
     width: 300px;
   }
 
@@ -788,7 +790,8 @@ footer {
   }
 
   .input input {
-    padding: 0.8rem;
+    padding: 0.9rem;
+    border: none;
     width: 230px;
   }
 
@@ -819,8 +822,26 @@ footer {
 }
 
 @media screen and (max-width: 375px){
+
+  .text2 button {
+    font-size: 18px;
+    padding: 0.4rem 1rem;
+  }
+
+  .input input {
+    padding: 0.9rem;
+    width: 200px;
+    border: none;
+  }
+
+
   .text1 h2 {
-    font-size: 35px;
+    font-size: 30px;
+  }
+
+  .text1 p {
+    font-size: 16px;
+    width: 100%;
   }
 
   .benefitText{
